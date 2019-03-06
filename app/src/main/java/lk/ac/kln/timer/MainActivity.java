@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 textView.setText(Integer.toString(counter));
                 counter--;
-                handler.postDelayed(this,1000);
+                handler.postDelayed(this,1);
             }
         });
     }
